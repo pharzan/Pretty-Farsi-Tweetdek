@@ -1,0 +1,23 @@
+/* @font-face {
+    font-family: "irSans";
+    src: url('chrome-extension://__MSG_@@extension_id__/iransans.woff');
+
+} */
+
+p[lang="fa"],
+textarea[lang="fa"] {
+
+    font-family: "irSans" !important;
+    font-size: 14px !important;
+    direction: rtl;
+    text-align: right;
+    line-height: 22px;
+}
+
+p,
+textarea {
+    font-family: "raleway" !important;
+    font-size: 16px !important;
+    line-height: 22px;
+
+}
