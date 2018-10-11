@@ -1,0 +1,25 @@
+{
+    "name": "Farsi Tweetdeck",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "TweekDeck Farsi",
+    "homepage_url": "http://pharzan.com",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Tweetdeck Farsi!"
+    },
+    "permissions": [
+        "https://tweetdeck.twitter.com/*",
+        "http://tweetdeck.twitter.com/*"
+        
+    ],
+    "content_scripts": [{
+        "matches": ["https://tweetdeck.twitter.com/*", "http://tweetdeck.twitter.com/*"],
+        "js": ["makeFarsi.js"]
+    }]
+}
