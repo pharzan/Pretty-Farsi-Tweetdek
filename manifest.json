@@ -1,3 +1,4 @@
+
 {
     "name": "Farsi Tweetdeck",
     "version": "0.0.1",
@@ -11,7 +12,7 @@
         "persistent": true
     },
     "browser_action": {
-        "default_title": "Tweetdeck Farsi!"
+        "default_title": "Pretty farsi tweetdeck!"
     },
     "permissions": [
         "https://tweetdeck.twitter.com/*",

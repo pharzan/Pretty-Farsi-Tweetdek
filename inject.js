@@ -3,13 +3,12 @@
 (function() {
 
 	// just place a div at top right
-	var div = document.createElement('div');
+    var div = document.createElement('div');
+    div.setAttribute("class","watermark");
 	div.style.position = 'fixed';
-	div.style.top = 0;
-	div.style.right = 0;
-	div.textContent = 'Injected!';
+	div.textContent = 'pretty farsi tweetdeck.';
 	document.body.appendChild(div);
 
-	console.log('inserted self... giggity');
+	console.log('inserted');
 
 })();
